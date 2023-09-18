@@ -9,7 +9,9 @@ public class UserRegistrationDto {
     public String getLastName() {
         return lastName;
     }
+    public UserRegistrationDto(){
 
+    }
     public UserRegistrationDto(String lastName, String firstName, String password, String email) {
         this.lastName = lastName;
         this.firstName = firstName;
